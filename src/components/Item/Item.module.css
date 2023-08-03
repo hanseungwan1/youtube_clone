@@ -1,0 +1,33 @@
+.item_container {
+  width: 390px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.video_img {
+  border-radius: 10px;
+  border: 3px solid black;
+  width: 100%;
+  height: 220px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}
+.text_container {
+  max-width: 350px;
+}
+.channer_icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.title {
+  margin-bottom: 10px;
+}
+
+.channer_name {
+  color: #646464;
+}

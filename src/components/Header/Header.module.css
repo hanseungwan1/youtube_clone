@@ -1,0 +1,71 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  background-color: var(--color-white);
+}
+
+.logo_btn {
+  display: flex;
+  font-size: 30px;
+  background-color: var(--color-white);
+  align-items: center;
+  justify-content: center;
+}
+.logo_btn p {
+  letter-spacing: -4px;
+  font-weight: bold;
+}
+.youtube_icon {
+  color: #ff0000;
+  margin-right: 6px;
+}
+
+.input_bar_container {
+  width: 35%;
+  height: 40px;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--color-input_border);
+}
+.search_input {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  padding-left: 20px;
+  outline: none;
+  font-size: var(--fontsize-icon);
+  border: none;
+}
+
+.search_bar_btn {
+  background-color: var(--color-gray);
+  width: 25%;
+  height: 100%;
+  border-left: 1px solid var(--color-input_border);
+  font-size: var(--fontsize-icon);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_bar_btn:hover {
+  background-color: var(--color-active);
+}
+
+.user_info_container {
+  display: flex;
+  gap: 20px;
+}
+
+.user_info_container button {
+  font-size: var(--fontsize-icon);
+}

@@ -1,9 +1,16 @@
 import React from "react";
 import styles from "./Item.module.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Item() {
+  const navigate = useNavigate();
   return (
-    <div className={styles.item_container}>
+    <div
+      className={styles.item_container}
+      onClick={() => {
+        navigate("/detail");
+      }}
+    >
       <img className={styles.video_img} src="/product1-1.jpg" alt="" />
       <div className={styles.content}>
         <img

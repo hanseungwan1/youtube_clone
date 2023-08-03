@@ -1,11 +1,13 @@
+import DetailItem from "./components/DetailItem/DetailItem";
 import Header from "./components/Header/Header";
-import MainPage from "./pages/MainPage/MainPage";
+import DetailPage from "./pages/DetailPage/DetailPage";
+// import MainPage from "./pages/MainPage/MainPage";
 
 function App() {
   return (
     <>
       <Header />
-      <MainPage />
+      <DetailPage />
     </>
   );
 }

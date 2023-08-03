@@ -1,0 +1,46 @@
+.comment_container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.comment_top {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.comment_btn,
+font-size {
+  margin-right: 30px;
+  font-size: 14px;
+}
+
+.user_input_container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.user_img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.comment_btn,
+.sort_btn {
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+}

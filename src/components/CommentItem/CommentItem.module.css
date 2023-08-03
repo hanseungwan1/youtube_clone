@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 14px;
+  border: 1px solid black;
+}
+
+.users_box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.good_bad_btn {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  font-size: 20px;
+  padding: 5px;
+}
+
+span {
+  margin-left: 10px;
+  color: gray;
+  font-weight: 400;
+}

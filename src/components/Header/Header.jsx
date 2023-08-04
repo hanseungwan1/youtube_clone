@@ -24,6 +24,9 @@ export default function Header() {
         </button>
       </div>
       <div className={styles.user_info_container}>
+        <button className={styles.video_btn_search}>
+          <AiOutlineSearch />
+        </button>
         <button className={styles.video_btn}>
           <BiVideoPlus />
         </button>

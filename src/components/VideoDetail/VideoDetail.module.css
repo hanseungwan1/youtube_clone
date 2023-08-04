@@ -89,3 +89,9 @@
 .dec_top {
   margin-bottom: 4px;
 }
+
+@media screen and (max-width: 769px) {
+  .right_box {
+    display: none;
+  }
+}

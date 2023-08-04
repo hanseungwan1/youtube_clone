@@ -36,6 +36,7 @@
   overflow: hidden;
   border: 1px solid var(--color-input_border);
 }
+
 .search_input {
   width: 100%;
   height: 100%;
@@ -68,4 +69,17 @@
 
 .user_info_container button {
   font-size: var(--fontsize-icon);
+}
+
+.video_btn_search {
+  display: none;
+}
+@media screen and (max-width: 769px) {
+  .input_bar_container {
+    display: none;
+  }
+  .video_btn_search {
+    display: block;
+    padding-right: 0px;
+  }
 }

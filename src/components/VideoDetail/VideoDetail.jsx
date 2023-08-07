@@ -18,7 +18,13 @@ export default function VideoDetail() {
               <p>구독자수</p>
             </div>
             <button
-              style={{ display: "flex", alignItems: "center", gap: "5px" }}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "5px",
+                fontSize: "14px",
+              }}
+              className={styles.sub_btnn}
             >
               <BiBellOff />
               구독중

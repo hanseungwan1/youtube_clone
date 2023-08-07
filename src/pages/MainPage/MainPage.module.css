@@ -6,3 +6,8 @@
   margin: 0 auto;
   padding: var(--padding-main);
 }
+.loading_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

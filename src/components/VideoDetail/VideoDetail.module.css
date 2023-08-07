@@ -52,6 +52,7 @@
 }
 
 .sum_btn {
+  /* padding: 10px; */
   display: flex;
   margin-right: 10px;
   background-color: var(--color-active);
@@ -60,7 +61,16 @@
   height: 30px;
   align-items: center;
 }
-
+.sub_btnn {
+  padding: 10px;
+  display: flex;
+  margin-right: 10px;
+  background-color: var(--color-active);
+  border-radius: 18px;
+  overflow: hidden;
+  height: 30px;
+  align-items: center;
+}
 .bar {
   height: 80%;
   width: 1px;
@@ -76,7 +86,9 @@
   height: 100%;
   padding: 0;
   width: 100%;
-  padding: 6px 10px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
 }
 
 .dec_box {
